@@ -37,10 +37,7 @@ npm install
 ### `No diretório do projeto, você pode executar:`
 npm start
 
-## Scripts Disponíveis
-
 A página será recarregada se você fizer edições. <br>
 Você também verá quaisquer erros de lint no console.
 
-### `npm test`
 
