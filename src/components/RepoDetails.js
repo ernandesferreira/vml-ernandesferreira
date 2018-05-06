@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
-import './RepoDetails.css';
 import $ from 'jquery';
 
 class RepoDetails extends Component{
@@ -38,7 +37,7 @@ class RepoDetails extends Component{
       url:"https://api.github.com/repos/globocom"+actualRepo,
       dataType: 'json',
       success:function(resposta){
-        console.log(resposta);
+        //console.log(resposta);
         this.setState({repo: resposta});
       }.bind(this)
     })

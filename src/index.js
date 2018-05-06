@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import RepoDetails from './components/RepoDetails'
-import './index.css';
 import {Router,Route, browserHistory} from 'react-router';
 
 ReactDOM.render(

@@ -1,6 +1,4 @@
 
-Abaixo você encontrará algumas informações sobre como executar tarefas comuns.<br>
-
 ## Enviando Feedback
 
 Estamos sempre abertos para [your feedback](https://github.com/facebookincubator/create-react-app/issues).
@@ -32,7 +30,7 @@ git clone https://github.com/ernandesferreira/vml-ernandesferreira.git
 cd vml-ernandesferreira
 
 ### `Instale as dependencias digitando o seguinte o comando a seguir no seu terminal`
-npm install
+npm install (pode demorar alguns minutos, mas não se preocupe)
 
 ### `No diretório do projeto, você pode executar:`
 npm start

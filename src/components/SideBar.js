@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './SideBar.css';
 import $ from 'jquery';
 import {Link} from 'react-router';
 export default class SideBar extends Component{
@@ -13,7 +12,7 @@ export default class SideBar extends Component{
         url:"https://api.github.com/orgs/globocom/repos?&per_page=100&page=1",
         dataType: 'json',
         success:function(resposta){
-          console.log('Fez a requisição');
+          //console.log('Fez a requisição');
           repositories.push(resposta);
           repositories[0].sort(function(a, b){
             return b.stargazers_count - a.stargazers_count;
