@@ -23,9 +23,10 @@ export default class SideBar extends Component{
 
   }
   render() {
-    console.log('render');
+     //console.log('render');
     return (
-      <div className="sidebar">
+      
+      <div className="sidebar hide-menu">      
         <h1 className="brand">Globo.com<br/> <small>Repositórios</small></h1>
         <ul>
           {

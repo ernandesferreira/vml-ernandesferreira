@@ -56,8 +56,10 @@ class RepoDetails extends Component{
   this.getCommits();
 }
   render(){
+    
     return(
       <div className="repo-details">
+      <div className="mobile_menu"><i className="fas fa-align-justify"></i></div>
         <h1>{this.state.repo.name}:
           <small> 
             <span><i className="fa fa-star" aria-hidden="true"></i> {this.state.repo.stargazers_count}</span>

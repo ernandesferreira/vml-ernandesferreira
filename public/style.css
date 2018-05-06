@@ -95,6 +95,13 @@ a {
 .text-center {
   text-align: center; }
 
+.mobile_menu {
+  width: 32px;
+  height: 32px;
+  font-size: 40px;
+  color: #000;
+  display: none; }
+
 .sidebar {
   width: 30%;
   float: left;
@@ -142,3 +149,39 @@ a {
   color: #333;
   border-right: 3px solid #333;
   transition: all .5s; }
+
+@media (max-width: 1024px) {
+  .repo-details {
+    position: absolute;
+    padding-left: 0;
+    min-width: 100%;
+    transition: all 1s;
+    margin: 0 15px; }
+  .hide-menu {
+    transform: translateX(-100%);
+    transition: all 1s; }
+  .mobile_menu {
+    position: absolute;
+    font-size: 2rem;
+    right: 1rem;
+    top: 0.6rem;
+    z-index: 9999;
+    display: block; } }
+
+@media (max-width: 768px) {
+  .repo-details {
+    position: absolute;
+    padding-left: 0;
+    min-width: 100%;
+    transition: all 1s;
+    margin: 0 15px; }
+  .hide-menu {
+    transform: translateX(-100%);
+    transition: all 1s; }
+  .mobile_menu {
+    position: absolute;
+    font-size: 2rem;
+    right: 1rem;
+    top: 0.6rem;
+    z-index: 9999;
+    display: block; } }
