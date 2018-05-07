@@ -13,13 +13,26 @@ vml-ernandesferreira/
   public/
     index.html
     favicon.ico
+    style.css
   src/
-    App.css
+    components/
+      RepoDetails.js
+      RepoMenuBar.js
+      SideBar.js
+    css/
+      font-awesome.mim.css
+    sass/
+      RepoDetails.sass
+      responsive.sass
+      SideBar.sass
+      style.sass      
     App.js
     App.test.js
     index.css
     index.js
     logo.svg
+
+
 ```
 
 ##Instruções de Instalação da aplicação
