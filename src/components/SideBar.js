@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import {Link} from 'react-router';
+import MenuBar from './RepoMenuBar'
+
 export default class SideBar extends Component{
   constructor(){
     super();
@@ -26,7 +28,8 @@ export default class SideBar extends Component{
      //console.log('render');
     return (
       
-      <div className="sidebar hide-menu">      
+      <div className="sidebar">
+      <MenuBar />    
         <h1 className="brand">Globo.com<br/> <small>Repositórios</small></h1>
         <ul>
           {
