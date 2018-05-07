@@ -7,11 +7,12 @@ import { slide as Menu } from 'react-burger-menu'
 class MenuBar extends React.Component {
   showSettings (event) {
     $('.mobile_menu').click(function(){
-      $('.sidebar').hide(1000);
+      $('.sidebar').addClass('recolheMenu'); 
     })
 
     $('.mobile_menuContainer').click(function(){
       $('.sidebar').show(1000);
+      $('.sidebar').removeClass('recolheMenu')
     })
 
     $('.repository').click(function(){

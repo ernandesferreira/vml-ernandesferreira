@@ -24,6 +24,7 @@ export default class SideBar extends Component{
       })
 
   }
+
   render() {
      //console.log('render');
     return (

@@ -1,11 +1,13 @@
 @media (max-width: 1024px)
+
   .repo-details
     position: absolute
     padding-left: 0
-    min-width: 100%
-    min-height 100%  
+    width: 100%;
+    height: 100%;  
     transition: all 1s  
     margin: 0 15px
+
 
   .mobile_menu
     position: absolute
@@ -18,6 +20,7 @@
     height: 52px;
     text-align: center;
 
+
   .mobile_menuContainer
     position: absolute
     display: block	 
@@ -26,9 +29,19 @@
     top: 0.6rem
     width: 52px;
     height: 52px;
-    text-align: center; 
+    text-align: center
+
 
   .sidebar
     width: 100%
-    z-index: 999;  
+    height: 100%;
+    z-index: 999
+    -webkit-transition: width 2s
+    transition: width 2s
+
+  .recolheMenu
+    width: 0
+    -webkit-transition: width 2s
+    transition: width 2s
+
           

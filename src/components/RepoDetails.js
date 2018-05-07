@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import $ from 'jquery';
-import MenuBar from './RepoMenuBar'
+import MenuBar from './RepoMenuBar';
 
 class RepoDetails extends Component{
 
